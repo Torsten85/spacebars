@@ -1,0 +1,25 @@
+{
+  "name": "Spacebars",
+  "main": "spacebars.js",
+  "version": "0.0.1",
+  "authors": [
+    "Torsten Blindert"
+  ],
+  "description": "Spacebars Plugin for RequireJS",
+  "keywords": [
+    "Blaze",
+    "Spacebars"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scripts/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "blaze": "git@github.com:Torsten85/blaze.git"
+  }
+}
