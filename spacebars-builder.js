@@ -22,7 +22,7 @@ define(function () {
   api.write = function (pluginName, name, write) {
     if (name in buildMap) {
       write("define('" + pluginName + "!" + name + "', ['blaze', 'blaze/htmljs', 'blaze/spacebars'], function (Blaze, HTML, Spacebars) {\n" +
-      "return new Blaze.Template(" + buildMap[name] + ");\n" +
+      "return new Blaze.Template('" + name + "'," + buildMap[name] + ");\n" +
       "});\n");
     }
   };

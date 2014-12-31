@@ -24,7 +24,7 @@ define(function () {
 
       fetchText(path, function (content) {
         var renderFuncCode = Compiler.compile(content, {isTemplate: true});
-        load(new Blaze.Template(eval(renderFuncCode)));
+        load(new Blaze.Template(name, eval(renderFuncCode)));
       });
     });
   };
