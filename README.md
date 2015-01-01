@@ -22,4 +22,4 @@ var Blaze = require('blaze');
 Blaze.render(myTemplate, document.body);
 ```
 
-## Thanks it for now.
+## Thats it for now.
