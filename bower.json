@@ -20,6 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "blaze": "git@github.com:Torsten85/blaze.git"
+    "blaze": "Torsten85/blaze"
   }
 }
